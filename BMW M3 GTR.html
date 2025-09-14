@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW M3 GTR Özellikleri ve Efsanesi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0d1117;
+            color: #e2e8f0;
+            scroll-behavior: smooth;
+        }
+
+        .hero {
+            background-image: url('https://cdn.bmwblog.com/wp-content/uploads/2024/11/bmw-M3-GTR-NFS-03.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            z-index: 0;
+        }
+
+        .hero > * {
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Kaydırma animasyonu için temel stil */
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        }
+
+        .animate-on-scroll.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        th, td {
+            padding: 12px 16px;
+            border-bottom: 1px solid #2d3748;
+        }
+
+        th {
+            background-color: #1a202c;
+            font-weight: bold;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+    </style>
+</head>
+<body class="overflow-x-hidden">
+
+    <!-- Hero Bölümü -->
+    <header class="hero">
+        <div class="p-8 rounded-xl shadow-lg animate-on-scroll is-visible">
+            <h1 class="text-5xl md:text-7xl font-bold text-white mb-4 flex items-center justify-center">
+                <img src="https://i.pinimg.com/1200x/3b/8e/4c/3b8e4c1ee829bd5e68b67ebf6e7b2bf1.jpg" alt="[BMW M Logosu]" class="w-16 h-16 md:w-20 md:h-20 mr-4 rounded-full border-2 border-white">
+                BMW M3 GTR
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-300 max-w-2xl">Need For Speed Efsanesi: Yüksek Performanslı Yarış Aracı.</p>
+        </div>
+    </header>
+
+    <!-- Tarihçe Bölümü -->
+    <main class="container mx-auto px-4 py-20 bg-[#0d1117]">
+        <section class="mb-20">
+            <div class="animate-on-scroll" data-animate>
+                <h2 class="text-4xl font-bold mb-4">Efsanenin Doğuşu</h2>
+                <p class="text-lg text-gray-400 leading-relaxed">
+                    BMW M3 GTR, 2000'li yılların başında pistlerde fırtınalar estiren bir yarış aracıdır. Özellikle 'Need For Speed: Most Wanted' oyunundaki ikonik rolüyle geniş kitlelere ulaştı ve otomobil tutkunlarının gönlünde taht kurdu. GTR, sadece bir araba değil, aynı zamanda bir isyan ve zafer sembolü haline geldi. V8 motoruyla öne çıkan bu model, BMW'nin motor sporları bölümü olan M GmbH'nin mühendislik ve tasarım dehasının bir kanıtıdır. Projenin fikir babası, BMW'nin motor sporları ekibinden mühendislerdi. Onlar, rakiplerine üstünlük kuracak, en hızlı ve en çevik M3'ü yaratma misyonuyla bu projeye başladılar.
+                </p>
+            </div>
+        </section>
+
+        <!-- Üretim Bölümü -->
+        <section class="mb-20">
+            <div class="animate-on-scroll" data-animate>
+                <h2 class="text-4xl font-bold mb-4">Üretim</h2>
+                <p class="text-lg text-gray-400 leading-relaxed">
+                    BMW M3 GTR'nin üretimi, BMW'nin motor sporları bölümü olan M GmbH tarafından yönetildi. Aracın temel amacı, 2001 Amerikan Le Mans Serisi'nde (ALMS) zafer kazanmaktı. ALMS kuralları gereği, yarışa katılacak araçların yol versiyonlarının da üretilmesi gerekiyordu. Bu nedenle BMW, hem pist yarışları için hem de yasal gereklilikleri karşılamak için çok sınırlı sayıda GTR üretti. Yarış versiyonları BMW'nin Regensburg, Almanya'daki tesislerinde özel olarak üretildi ve bu araçların her biri, el yapımı bir mühendislik harikasıydı. Üretim süreci, standart üretim hatlarından çok farklıydı ve aracın her bir parçası performansı en üst seviyeye çıkarmak için titizlikle seçildi.
+                </p>
+            </div>
+        </section>
+
+        <!-- Yarış Mirası Bölümü -->
+        <section class="mb-20">
+            <div class="animate-on-scroll" data-animate>
+                <h2 class="text-4xl font-bold mb-4">Yarış Mirası</h2>
+                <p class="text-lg text-gray-400 leading-relaxed">
+                    BMW M3 GTR, Amerikan Le Mans Serisi'nde (ALMS) yarışmak üzere tasarlanmıştır. Aracın V8 motoru, rakiplerinin genellikle altı silindirli motorlar kullandığı bir dönemde büyük bir avantaj sağladı. GTR, 2001 sezonunda dominasyon kurarak ALMS şampiyonluğunu kazandı ve motor sporları tarihinde unutulmaz bir iz bıraktı. Yarış versiyonu, BMW'nin Regensburg, Almanya'daki tesislerinde özel olarak üretildi. Toplamda sadece **6 adet yarış versiyonu** ve 10 adet yol versiyonu üretildiği bilinmektedir. Bu sınırlı üretim adedi, GTR'yi hem pistlerin hem de koleksiyoncuların en nadir ve en değerli araçlarından biri haline getirmiştir.
+                </p>
+            </div>
+        </section>
+
+        <!-- Teknik Özellikler Tablosu -->
+        <section class="mb-20">
+            <h2 class="text-4xl font-bold text-center mb-12 animate-on-scroll" data-animate>Teknik Özellikler</h2>
+            <div class="bg-gray-800 p-8 rounded-xl shadow-lg animate-on-scroll" data-animate>
+                <div class="overflow-x-auto">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Özellik</th>
+                                <th>Detaylar</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Motor Tipi</td>
+                                <td>P60B40, V8, Atmosferik</td>
+                            </tr>
+                            <tr>
+                                <td>Silindir Hacmi</td>
+                                <td>3997 cc</td>
+                            </tr>
+                            <tr>
+                                <td>Bore x Stroke</td>
+                                <td>94.0 x 72.0 mm</td>
+                            </tr>
+                            <tr>
+                                <td>Sıkıştırma Oranı</td>
+                                <td>12.0:1</td>
+                            </tr>
+                            <tr>
+                                <td>Motor Gücü</td>
+                                <td>444 Beygir Gücü (331 kW) @ 7500 rpm</td>
+                            </tr>
+                            <tr>
+                                <td>Tork</td>
+                                <td>480 Nm @ 5000 rpm</td>
+                            </tr>
+                            <tr>
+                                <td>Hızlanma (0-100 km/s)</td>
+                                <td>4.2 Saniye</td>
+                            </tr>
+                            <tr>
+                                <td>Azami Hız</td>
+                                <td>290 km/s</td>
+                            </tr>
+                            <tr>
+                                <td>Şanzıman</td>
+                                <td>6 İleri Manuel</td>
+                            </tr>
+                            <tr>
+                                <td>Ağırlık</td>
+                                <td>Yaklaşık 1350 kg</td>
+                            </tr>
+                            <tr>
+                                <td>Gövde Malzemesi</td>
+                                <td>Çelik Şasi, Karbon Fiber Paneller</td>
+                            </tr>
+                            <tr>
+                                <td>Yakıt Depo Hacmi</td>
+                                <td>~70 Litre</td>
+                            </tr>
+                            <tr>
+                                <td>Ortalama Yakıt Tüketimi</td>
+                                <td>~15-20 L/100 km (Fabrika verisi değişebilir)</td>
+                            </tr>
+                            <tr>
+                                <td>Frenler</td>
+                                <td>Ön: 360 mm delikli, havalandırmalı diskler, 6 pistonlu kaliperler <br> Arka: 328 mm havalandırmalı diskler, tek pistonlu kaliperler</td>
+                            </tr>
+                            <tr>
+                                <td>Süspansiyon</td>
+                                <td>Ön: MacPherson strut <br> Arka: Çok bağlantılı (multi-link)</td>
+                            </tr>
+                            <tr>
+                                <td>Tekerlekler ve Lastikler</td>
+                                <td>Ön: 18 inç jantlar, 255/40 R18 lastikler <br> Arka: 18 inç jantlar, 285/35 R18 lastikler</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="mt-8">
+                    <h3 class="text-2xl font-bold mb-2">Turbo Yok, Saf Güç Var</h3>
+                    <p class="text-lg text-gray-400 leading-relaxed">
+                        BMW M3 GTR, turboşarj veya süperşarj gibi bir güçlendirici kullanmaz. Aracın en önemli özelliklerinden biri olan **P60B40 motoru, tamamen atmosferik** yani doğal emişli olarak tasarlanmıştır. Bu tasarım sayesinde motor, anında gaz tepkimesi verir ve en ufak bir gecikme yaşatmaz. Bu saf performans, yarış pistindeki rakiplerine karşı büyük bir avantaj sağlamıştır. Turbo olmaması, aynı zamanda motorun daha hafif ve karmaşık olmayan bir yapıya sahip olmasını da sağlar.
+                    </p>
+                    <p class="text-lg text-gray-400 leading-relaxed mt-4">
+                        Aracın **0'dan 100 km/s hıza 4.2 saniyede** ulaşması, motorun gücünü ve aracın hafifliğini gösteren etkileyici bir veridir. Bu hızlı ivmelenme, GTR'nin pist üzerindeki gücünü ve çevikliğini kanıtlar. Bu değerler, aracın hem düz yolda hem de virajlarda yüksek performans sergilemesini sağlar.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galeri Bölümü -->
+        <section class="mb-20">
+            <h2 class="text-4xl font-bold text-center mb-12 animate-on-scroll" data-animate>Görsel Galeri</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="animate-on-scroll" data-animate>
+                    <img src="https://hips.hearstapps.com/hmg-prod/images/bmw-m3-gtr-nfs-lead-674e2e65b114c.jpg?crop=0.612xw:0.612xh;0.230xw,0.194xh&resize=1200:*" alt="[BMW M3 GTR Önden Görünüm]" class="w-full rounded-xl shadow-lg">
+                </div>
+                <div class="animate-on-scroll" data-animate>
+                    <img src="https://cdn.motor1.com/images/mgl/eoKjQP/s3/bmw-m3-gtr-from-2005-s-need-for-speed-most-wanted.webp" alt="[BMW M3 GTR Yandan Görünüm]" class="w-full rounded-xl shadow-lg">
+                </div>
+                <div class="animate-on-scroll" data-animate>
+                    <img src="https://static0.hotcarsimages.com/wordpress/wp-content/uploads/2024/11/bmw-m3-gtr-1.jpg?q=70&fit=crop&w=1100&h=618&dpr=1" alt="[BMW M3 GTR Arkadan Görünüm]" class="w-full rounded-xl shadow-lg">
+                </div>
+            </div>
+        </section>
+
+        <!-- Need For Speed Efsanesi Bölümü -->
+        <section class="mb-20">
+            <div class="animate-on-scroll" data-animate>
+                <h2 class="text-4xl font-bold mb-4">Need For Speed Efsanesi</h2>
+                <p class="text-lg text-gray-400 leading-relaxed">
+                    BMW M3 GTR'yi ikonik hale getiren en önemli faktörlerden biri, 'Need For Speed: Most Wanted' oyunundaki rolüdür. Oyunun başından sonuna kadar hikayenin merkezinde yer alan bu araç, oyuncuların en büyük hedefi haline geldi. Karakterin başlangıç aracı olarak kullanıldıktan sonra kötü karakter Razor tarafından ele geçirilmesi ve oyunun sonunda geri alınması, M3 GTR'nin sadece bir araba olmaktan öte, intikam ve azmin sembolü haline gelmesini sağladı. Bu rol, aracı dijital dünyada ölümsüzleştirdi.
+                </p>
+            </div>
+        </section>
+
+        <!-- Biliyor muydunuz? Bölümü -->
+        <section class="mb-20">
+            <div class="animate-on-scroll" data-animate>
+                <h2 class="text-4xl font-bold mb-4">Biliyor muydunuz?</h2>
+                <ul class="list-disc list-inside text-lg text-gray-400 space-y-2 leading-relaxed">
+                    <li>BMW M3 GTR, yol versiyonuyla birlikte üretildiği halde, aslında bir yarış aracı olarak homologasyon için sınırlı sayıda üretilmiştir.</li>
+                    <li>Aracın motoru, BMW'nin yarış departmanı tarafından sıfırdan tasarlanmıştır ve E46 M3'ün sıralı altı silindirli motoruyla doğrudan bir bağlantısı yoktur.</li>
+                    <li>'Need For Speed: Most Wanted' oyununda kullanılan araç, gerçek M3 GTR'nin görünümüne sahiptir, ancak performansı oyun için özel olarak ayarlanmıştır.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center py-10 text-gray-500">
+        &copy; 2025 BMW M3 GTR Hayran Sitesi. Tüm hakları saklıdır.
+    </footer>
+
+    <script>
+        // IntersectionObserver kullanarak kaydırma animasyonunu tetikle
+        document.addEventListener("DOMContentLoaded", () => {
+            const elementsToAnimate = document.querySelectorAll('[data-animate]');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                    } else {
+                        entry.target.classList.remove('is-visible');
+                    }
+                });
+            }, {
+                threshold: 0.05,
+                rootMargin: "0px 0px -20px 0px"
+            });
+            elementsToAnimate.forEach(element => {
+                observer.observe(element);
+            });
+        });
+    </script>
+</body>
+</html>
